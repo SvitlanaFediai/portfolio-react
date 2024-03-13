@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio_react=self.webpackChunkportfolio_react||[]).push([[8340],{8340:(t,e,a)=>{async function o(t){let e=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await t.addParticleUpdater("color",(async t=>{const{ColorUpdater:e}=await a.e(3997).then(a.bind(a,3997));return new e(t)}),e)}a.r(e),a.d(e,{loadColorUpdater:()=>o})}}]);
+//# sourceMappingURL=8340.43cc94b2.chunk.js.map
