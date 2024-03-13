@@ -27,8 +27,9 @@ const MainCard = () => {
               <p>with passion for learning and creating.</p>
             </div>
             <Link
-              href="/SvitlanaFediai_FrontendDeveloper.pdf"
+              to="/SvitlanaFediai_FrontendDeveloper.pdf"
               download
+              target="_blank"
               className="btn download"
             >
               Download CV
