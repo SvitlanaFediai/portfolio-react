@@ -1,0 +1,7 @@
+.big-title {
+  position: fixed;
+  color: var(--text-color);
+  font-size: calc(5rem + 5vw);
+  opacity: 0.1;
+  z-index: 0;
+}

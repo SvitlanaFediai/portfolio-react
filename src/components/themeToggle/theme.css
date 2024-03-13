@@ -1,0 +1,26 @@
+.style__switcher {
+	position: fixed;
+	left: 0;
+	top: 25%;
+	z-index: 10;
+}
+
+.theme__toggler {
+	position: absolute;
+	left: 100%;
+	background-color: var(--purple);
+	color: var(--white);
+	height: 40px;
+	width: 40px;
+	font-size: 1.5rem;
+	cursor: pointer;
+	display: grid;
+	place-items: center;
+	box-shadow: 0 0 2px hsl(0, 0%, 80%);
+	border-radius: 0 5px 5px 0;
+	transition: all .3s ease;
+}
+
+
+
+

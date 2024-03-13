@@ -1,0 +1,28 @@
+.social {
+	display: flex;
+	column-gap: .8rem;
+	align-items: center;
+}
+
+.social__item {
+  width: 1.5rem;
+  height: 1.5rem;
+  list-style: none;
+}
+
+.social__item a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.social__item a svg{
+  width: inherit;
+  height: inherit;
+  color: var(--white);
+  transition: all .5s ease-in-out;
+}
+
+.social__item a svg:hover {
+  color: var(--purple);
+}

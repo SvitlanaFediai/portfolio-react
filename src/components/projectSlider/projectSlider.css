@@ -1,0 +1,21 @@
+.projects__slider {
+  flex-basis: 50%;
+  min-width: 0;
+}
+
+.swiper__pagination .swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+}
+
+.swiper__pagination .swiper-pagination-bullet-active {
+  background-color: var(--purple);
+  width: 10px;
+  height: 10px;
+}
+
+@media (max-width: 620px) {
+  .projects__slider {
+    flex-basis: 100%;
+  }
+}

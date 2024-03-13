@@ -1,0 +1,32 @@
+.container-first {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--purple);
+  z-index: 99;
+}
+
+.container-second {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3b2d71;
+  z-index: 98;
+}
+
+.container-third {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #4b3792;
+  z-index: 97;
+}

@@ -1,0 +1,19 @@
+/* Btn outline */
+
+.btn-outline {
+	display: flex;
+	align-items: center;
+	font-weight: 400;
+	font-size: 1rem;
+
+	transition: opacity 0.2s ease-in;
+}
+
+.btn-outline:hover {
+	opacity: 0.8;
+}
+
+.btn-outline:active {
+	position: relative;
+	top: 1px;
+}

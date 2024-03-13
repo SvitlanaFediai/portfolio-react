@@ -1,0 +1,27 @@
+.logo__link {
+  display: flex;
+}
+
+.logo__firstname {
+  color: var(--purple);
+  font-size: 3rem;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+}
+
+.logo__lastname {
+  font-size: 2.5rem;
+  color: var(--white);
+  text-transform: capitalize;
+  font-family: "Anton", sans-serif;
+}
+
+@media (max-width: 620px) {
+	.logo__firstname {
+    font-size: 2rem;
+  }
+
+  .logo__lastname {
+    font-size: 1.6rem;
+  }
+}
